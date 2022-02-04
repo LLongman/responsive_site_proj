@@ -1,0 +1,24 @@
+/* Global Styles */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    display: grid;
+    grid-template: repeat(20, 1fr) / repeat(12, 1fr);
+    column-gap: 1rem;
+}
+
+/* Screen size media queries */
+@media only screen and (max-width: 760px) {
+    body {
+        grid-template: repeat(20, 1fr) / repeat(8, 1fr);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        grid-template: repeat(20, 1fr) / repeat(4, 1fr);
+    }
+}
