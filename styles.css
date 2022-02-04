@@ -8,6 +8,7 @@ body {
     display: grid;
     grid-template: 300px repeat(4, 1fr) / repeat(12, 1fr);
     column-gap: 1rem;
+    position: fixed;
 }
 
 .title {
@@ -16,14 +17,34 @@ body {
 
 .description-container {
     grid-area: 2 / 2 / span 1 / span 10;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc-img-container {
+    overflow: hidden;
+    width: 30%;
+    height: 30%;
 }
 
 .wellness-container {
     grid-area: 3 / 2 / span 1 / span 10;
 }
 
+.wellness-img {
+    overflow: hidden;
+    width: 20%;
+    height: 20%;
+}
+
 .fitness-container {
     grid-area: 4 / 2 / span 1 / span 10;
+}
+
+.fitness-img {
+    overflow: hidden;
+    width: 25%;
+    height: 25%;
 }
 
 /* Screen size media queries */
