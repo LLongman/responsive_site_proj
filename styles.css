@@ -13,6 +13,15 @@ body {
     
 }
 
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
 img {
     max-height: 100%;
     max-width: 100%;
@@ -33,6 +42,10 @@ figure {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.description-container p {
+    text-align: center;
 }
 
 .desc-img-container {
@@ -99,6 +112,14 @@ figure {
     grid-auto-rows: minmax(min-content, max-content);
     }
 
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
     .title {
         grid-area: 1 / 1 / span 1 / span 8;
     }
@@ -122,8 +143,13 @@ figure {
     grid-auto-rows: minmax(min-content, max-content);
     }
 
+    h1 {
+        font-size: 2.5rem;
+    }
+
     h2 {
         text-align: center;
+        font-size: 1.5rem;
     }
 
     .title {
@@ -141,7 +167,7 @@ figure {
     .description-container p {
         color: white;
         position: relative;
-        top: 20%;
+        top: 15%;
         right: 5%;
         margin: 0;
         text-align: left;
