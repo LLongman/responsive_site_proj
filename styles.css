@@ -46,11 +46,17 @@ figure {
 
 .description-container p {
     text-align: center;
+    margin: 0;
 }
 
 .desc-img-container {
-    overflow: hidden;
-    height: 70%;
+    height: 75%;
+}
+
+.desc-img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* Wellness Section Styles */
